@@ -1,0 +1,64 @@
+:root {
+    --cor-do-texto: hsl(193, 38%, 86%);
+    --cor-do-botão-card-texto: hsl(150, 100%, 66%);
+    --cor-do-card: hsl(217, 19%, 24%);
+    --cor-de-fundo: hsl(218, 23%, 16%);
+}
+
+body {
+    font-family: "Manrope", sans-serif;
+    background-color: var(--cor-de-fundo);
+    height: 100vh;  
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+   
+    }
+
+.card {
+    background-color: var(--cor-do-card);
+    height: 250px;
+    width: 400px;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+
+}
+
+.conselho .numero-conselho {
+    color: var(--cor-do-botão-card-texto);
+    text-align: center;
+    margin-bottom: 10px;
+   
+}
+
+.conselho .mensagem {
+    color: var(--cor-do-texto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.card .botao {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+    
+}
+
+.card .botao button {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%; 
+    background-color: var(--cor-do-botão-card-texto);
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* sombra suave */
+    transition: background-color 0.3s, transform 0.2s; /* transições suaves */
+
+}
+

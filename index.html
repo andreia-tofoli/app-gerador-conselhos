@@ -10,24 +10,27 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
   <title>Frontend Mentor | Advice generator app</title>
 </head>
 
 <body>
-  <main class="card">
-    <div class="conselho">
-      <p class="numero-conselho">Conselho #001</p>
-      <p class="mensagem">NÃO SAIA TENTANDO ESCREVER CÓDIGOS DE QUALQUER MANEIRA! <br> Antes disso você precisa saber O QUE precisa ser feito e só depois COMO fazer. 🧙‍♂️</p>
-      <hr>
-      <div class="botao">
-        <button><i class="fas fa-dice-five"></i></button>
-      </div>      
-    </div>    
+  <main class="cartao">
+    <h2 class="numero-conselho">CONSELHO #001</h2>
+    <p class="conselho">NÃO SAIA TENTANDO ESCREVER CÓDIGOS DE QUALQUER MANEIRA!<br>Antes disso você precisa saber O QUE
+      precisa ser feito e só depois COMO fazer. 🧙‍♂️</p>
+    <picture>
+      <source src="./src/images/pattern-divider-mobile.svg" media="(max-width: 768px)">
+      <img src="./src/images/pattern-divider-desktop.svg" alt="divisao">
+    </picture>
+    <button class="botao">
+      <img src="./src/images/icon-dice.svg" alt="dado">
+    </button>
   </main>
-
 </body>
 
 </html>

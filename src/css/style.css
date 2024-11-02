@@ -13,6 +13,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 
 .cartao {
@@ -59,4 +60,36 @@ body {
     cursor: pointer;
     color: var(--cor-do-botão-card-texto);
     box-shadow: 0 5px 15px;
+}
+
+@media (max-width: 480px) {
+    .cartao {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .cartao .numero-conselho {
+        font-size: 12px;
+        padding: 15px;
+        letter-spacing: 4px;
+    }
+
+    .cartao .conselho {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .cartao .botao {
+        width: 40px;
+        height: 40px;
+        transform: translateY(80%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cartao .botao img {
+        height: 18px;     
+       
+    }
 }
